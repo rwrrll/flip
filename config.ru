@@ -1,0 +1,2 @@
+require './flip'
+run Flip

@@ -1,0 +1,20 @@
+<div id="wrapper">
+	<div class="clearfix">
+		<div class="logo">
+			<h1>flipomatic</h1>
+		</div>
+		<div class="controls" style="display: none;">
+			<input id="capture" maxlength="10" value="72707270" /><button id="flipper">Flip!</button>			
+		</div>
+	</div>
+	<div class="numbers clearfix">
+		<% 10.times do |i| %>
+		<div id="card<%= i %>" class="card">
+			<div class="high top"> </div>
+			<div class="high bottom"> </div>
+			<div class="low top"> </div>
+			<div class="low bottom"> </div>
+		</div>
+		<% end %>
+	</div>
+</div>
