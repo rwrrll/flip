@@ -18,15 +18,23 @@ $ cd flip
 $ bundle install
 ~~~
 
-### Use it.
+### Run it.
 
 ~~~ sh
 $ ruby flip.rb
 ~~~
 
-Hit up `http://localhost:3000/` to view the motherfucker.
+### Use it.
 
-Post `message=[whatever]` to `http://localhost:3000/` to update the motherfucker.	
+To view that motherfucker, hit up `http://localhost:3000/`.
+
+To update the message, POST `message=[whatever]` to `http://localhost:3000/` –
+for example:
+
+~~~sh
+$ curl -d "message=kapow" localhost:3000
+~~~
+
 ### Current Limitations.
 
 If you want to use it in anything other than WebKit, you'll need to make that work. And I used TypeKit, so the fonts won't work outside of localhost.
