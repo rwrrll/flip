@@ -37,4 +37,4 @@ $ curl -d "message=kapow" localhost:3000
 
 ### Current Limitations.
 
-If you want to use it in anything other than WebKit, you'll need to make that work. And I used TypeKit, so the fonts won't work outside of localhost.
+If you want to use it in anything other than WebKit, you'll need to make that work.
